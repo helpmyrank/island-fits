@@ -199,6 +199,22 @@
   .status-live{background:rgba(120,220,150,0.15); color:#7CE3A0;}
   .status-soldout{background:rgba(255,90,95,0.15); color:var(--coral);}
 
+  .price-tag{
+    font-family:'JetBrains Mono', monospace;
+    font-size:11px;
+    color:var(--gold);
+    background:rgba(255,200,87,0.1);
+    padding:2px 7px;
+    border-radius:6px;
+    white-space:nowrap;
+    margin-left:8px;
+  }
+  .item-name-row{
+    display:flex;
+    align-items:center;
+    flex-wrap:wrap;
+  }
+
   .shop-btn{
     display:block;
     width:100%;
@@ -249,149 +265,20 @@
 <div class="feed">
 
   <div>
-    <span class="bubble-tag">New Text 💌</span>
+    <span class="bubble-tag">Host Look 🎤</span>
     <div class="card">
       <div class="photo-placeholder">
         <span>📸 PHOTO</span>
         <small>Paste image URL into the &lt;img&gt; tag below</small>
       </div>
-      <!-- <img class="product-photo" src="PASTE_IMAGE_URL_HERE" alt="Megan Thee Stallion outfit"> -->
-      <div class="islander">Megan Thee Stallion</div>
-      <p class="item-desc">Purple floral lace gloves paired with pink ballerina lace-up pumps.</p>
+      <!-- <img class="product-photo" src="PASTE_IMAGE_URL_HERE" alt="Ariana Madix Tom Ford gown"> -->
+      <div class="islander">Ariana Madix</div>
+      <p class="item-desc">Black asymmetric gown for a villa finale moment — full designer.</p>
 
       <div class="item-row">
-        <div class="item-info">
-          <span class="item-name">Purple Floral Lace Gloves</span>
-          <span class="item-brand">BABEYOND</span>
-        </div>
-        <span class="item-status status-live">In Stock</span>
-      </div>
-      <div class="item-row">
-        <div class="item-info">
-          <span class="item-name">Pink Ballerina Lace-Up Pumps</span>
-          <span class="item-brand">Steve Madden</span>
-        </div>
-        <span class="item-status status-live">In Stock</span>
-      </div>
-
-      <a href="#" class="shop-btn" data-affiliate="REPLACE_WITH_YOUR_LINK">Shop This Fit</a>
-    </div>
-  </div>
-
-  <div>
-    <span class="bubble-tag">New Text 💌</span>
-    <div class="card">
-      <div class="photo-placeholder">
-        <span>📸 PHOTO</span>
-        <small>Paste image URL into the &lt;img&gt; tag below</small>
-      </div>
-      <!-- <img class="product-photo" src="PASTE_IMAGE_URL_HERE" alt="Aniya outfit"> -->
-      <div class="islander">Aniya</div>
-      <p class="item-desc">Purple lace corset top with white ruffle micro shorts.</p>
-
-      <div class="item-row">
-        <div class="item-info">
-          <span class="item-name">Purple Lace Corset Top</span>
-          <span class="item-brand">Urban Outfitters</span>
-        </div>
-        <span class="item-status status-soldout">Color Sold Out</span>
-      </div>
-
-      <a href="#" class="shop-btn" data-affiliate="REPLACE_WITH_YOUR_LINK">Shop Similar</a>
-    </div>
-  </div>
-
-  <div>
-    <span class="bubble-tag">New Text 💌</span>
-    <div class="card">
-      <div class="photo-placeholder">
-        <span>📸 PHOTO</span>
-        <small>Paste image URL into the &lt;img&gt; tag below</small>
-      </div>
-      <!-- <img class="product-photo" src="PASTE_IMAGE_URL_HERE" alt="Kenzie outfit"> -->
-      <div class="islander">Kenzie</div>
-      <p class="item-desc">Orange beaded-strap bikini, plus a pink bow satin corset top for date night.</p>
-
-      <div class="item-row">
-        <div class="item-info">
-          <span class="item-name">Orange Beaded-Strap Bikini</span>
-          <span class="item-brand">Shein</span>
-        </div>
-        <span class="item-status status-live">In Stock</span>
-      </div>
-      <div class="item-row">
-        <div class="item-info">
-          <span class="item-name">Pink Bow Satin Corset Top</span>
-          <span class="item-brand">Dolls Kill</span>
-        </div>
-        <span class="item-status status-live">In Stock</span>
-      </div>
-
-      <a href="#" class="shop-btn" data-affiliate="REPLACE_WITH_YOUR_LINK">Shop This Fit</a>
-    </div>
-  </div>
-
-  <div>
-    <span class="bubble-tag">New Text 💌</span>
-    <div class="card">
-      <div class="photo-placeholder">
-        <span>📸 PHOTO</span>
-        <small>Paste image URL into the &lt;img&gt; tag below</small>
-      </div>
-      <!-- <img class="product-photo" src="PASTE_IMAGE_URL_HERE" alt="Parmida outfit"> -->
-      <div class="islander">Parmida</div>
-      <p class="item-desc">Light purple lace corset top — villa date-night staple.</p>
-
-      <div class="item-row">
-        <div class="item-info">
-          <span class="item-name">Light Purple Lace Corset Top</span>
-          <span class="item-brand">Urban Outfitters</span>
-        </div>
-        <span class="item-status status-soldout">Color Sold Out</span>
-      </div>
-
-      <a href="#" class="shop-btn" data-affiliate="REPLACE_WITH_YOUR_LINK">Shop Similar</a>
-    </div>
-  </div>
-
-  <div>
-    <span class="bubble-tag">New Text 💌</span>
-    <div class="card">
-      <div class="photo-placeholder">
-        <span>📸 PHOTO</span>
-        <small>Paste image URL into the &lt;img&gt; tag below</small>
-      </div>
-      <!-- <img class="product-photo" src="PASTE_IMAGE_URL_HERE" alt="Trinity outfit"> -->
-      <div class="islander">Trinity</div>
-      <p class="item-desc">Blue lace-up corset top.</p>
-
-      <div class="item-row">
-        <div class="item-info">
-          <span class="item-name">Blue Lace-Up Corset Top</span>
-          <span class="item-brand">Romwe</span>
-        </div>
-        <span class="item-status status-live">In Stock</span>
-      </div>
-
-      <a href="#" class="shop-btn" data-affiliate="REPLACE_WITH_YOUR_LINK">Shop This Fit</a>
-    </div>
-  </div>
-
-  <div>
-    <span class="bubble-tag">New Text 💌</span>
-    <div class="card">
-      <div class="photo-placeholder">
-        <span>📸 PHOTO</span>
-        <small>Paste image URL into the &lt;img&gt; tag below</small>
-      </div>
-      <!-- <img class="product-photo" src="PASTE_IMAGE_URL_HERE" alt="Tierra outfit"> -->
-      <div class="islander">Tierra</div>
-      <p class="item-desc">Green floral textured string bikini set.</p>
-
-      <div class="item-row">
-        <div class="item-info">
-          <span class="item-name">Green Floral String Bikini</span>
-          <span class="item-brand">Shein</span>
+        <div class="item-info item-name-row">
+          <span class="item-name">Black Asymmetric Gown <span class="price-tag">~$1,890</span></span>
+          <span class="item-brand">Tom Ford</span>
         </div>
         <span class="item-status status-live">In Stock</span>
       </div>
@@ -407,19 +294,132 @@
         <span>📸 PHOTO</span>
         <small>Paste image URL into the &lt;img&gt; tag below</small>
       </div>
-      <!-- <img class="product-photo" src="PASTE_IMAGE_URL_HERE" alt="Ariana Madix outfit"> -->
+      <!-- <img class="product-photo" src="PASTE_IMAGE_URL_HERE" alt="Ariana Madix Simon G jewelry"> -->
       <div class="islander">Ariana Madix</div>
-      <p class="item-desc">Custom gown by Taylor Jean Cox — not sold as-is, but similar styles can be linked here.</p>
+      <p class="item-desc">Stacked fine jewelry moment — pavé diamond bangle and three coordinating gold rings.</p>
 
       <div class="item-row">
-        <div class="item-info">
-          <span class="item-name">Similar Custom-Style Gowns</span>
-          <span class="item-brand">Add your pick</span>
+        <div class="item-info item-name-row">
+          <span class="item-name">Pavé Diamond 18K Gold Bangle <span class="price-tag">~$2,400</span></span>
+          <span class="item-brand">Simon G</span>
         </div>
-        <span class="item-status status-live">Add Link</span>
+        <span class="item-status status-live">In Stock</span>
+      </div>
+      <div class="item-row">
+        <div class="item-info item-name-row">
+          <span class="item-name">Diamond 18K Gold Ring (set of 3) <span class="price-tag">~$1,200 ea</span></span>
+          <span class="item-brand">Simon G</span>
+        </div>
+        <span class="item-status status-live">In Stock</span>
       </div>
 
-      <a href="#" class="shop-btn muted" data-affiliate="REPLACE_WITH_YOUR_LINK">Shop Similar</a>
+      <a href="#" class="shop-btn" data-affiliate="REPLACE_WITH_YOUR_LINK">Shop This Fit</a>
+    </div>
+  </div>
+
+  <div>
+    <span class="bubble-tag">Host Look 🎤</span>
+    <div class="card">
+      <div class="photo-placeholder">
+        <span>📸 PHOTO</span>
+        <small>Paste image URL into the &lt;img&gt; tag below</small>
+      </div>
+      <!-- <img class="product-photo" src="PASTE_IMAGE_URL_HERE" alt="Ariana Madix AREA dress"> -->
+      <div class="islander">Ariana Madix</div>
+      <p class="item-desc">Crystal-embellished mini dress — high-shine designer eveningwear.</p>
+
+      <div class="item-row">
+        <div class="item-info item-name-row">
+          <span class="item-name">Lilac Crystal-Embellished Mini Dress <span class="price-tag">~$1,150</span></span>
+          <span class="item-brand">AREA</span>
+        </div>
+        <span class="item-status status-live">In Stock</span>
+      </div>
+
+      <a href="#" class="shop-btn" data-affiliate="REPLACE_WITH_YOUR_LINK">Shop This Fit</a>
+    </div>
+  </div>
+
+  <div>
+    <span class="bubble-tag">New Text 💌</span>
+    <div class="card">
+      <div class="photo-placeholder">
+        <span>📸 PHOTO</span>
+        <small>Paste image URL into the &lt;img&gt; tag below</small>
+      </div>
+      <!-- <img class="product-photo" src="PASTE_IMAGE_URL_HERE" alt="Trinity CouCoo dress"> -->
+      <div class="islander">Trinity</div>
+      <p class="item-desc">Plunge cutout midi dress styled with designer-inspired gold sandals.</p>
+
+      <div class="item-row">
+        <div class="item-info item-name-row">
+          <span class="item-name">Green Plunge Cutout Midi Dress <span class="price-tag">~$210</span></span>
+          <span class="item-brand">CouCoo</span>
+        </div>
+        <span class="item-status status-live">In Stock</span>
+      </div>
+      <div class="item-row">
+        <div class="item-info item-name-row">
+          <span class="item-name">Gold Strappy Sandals <span class="price-tag">~$95</span></span>
+          <span class="item-brand">Designer-Inspired</span>
+        </div>
+        <span class="item-status status-live">In Stock</span>
+      </div>
+
+      <a href="#" class="shop-btn" data-affiliate="REPLACE_WITH_YOUR_LINK">Shop This Fit</a>
+    </div>
+  </div>
+
+  <div>
+    <span class="bubble-tag">New Text 💌</span>
+    <div class="card">
+      <div class="photo-placeholder">
+        <span>📸 PHOTO</span>
+        <small>Paste image URL into the &lt;img&gt; tag below</small>
+      </div>
+      <!-- <img class="product-photo" src="PASTE_IMAGE_URL_HERE" alt="Jen Ray-Ban sunglasses"> -->
+      <div class="islander">Jen</div>
+      <p class="item-desc">Poolside look — colorblock bikini with classic Ray-Ban sunglasses.</p>
+
+      <div class="item-row">
+        <div class="item-info item-name-row">
+          <span class="item-name">Black Sunglasses <span class="price-tag">~$163</span></span>
+          <span class="item-brand">Ray-Ban</span>
+        </div>
+        <span class="item-status status-live">In Stock</span>
+      </div>
+      <div class="item-row">
+        <div class="item-info item-name-row">
+          <span class="item-name">Blue Colorblock String Bikini <span class="price-tag">~$80</span></span>
+          <span class="item-brand">Triangl</span>
+        </div>
+        <span class="item-status status-live">In Stock</span>
+      </div>
+
+      <a href="#" class="shop-btn" data-affiliate="REPLACE_WITH_YOUR_LINK">Shop This Fit</a>
+    </div>
+  </div>
+
+  <div>
+    <span class="bubble-tag">New Text 💌</span>
+    <div class="card">
+      <div class="photo-placeholder">
+        <span>📸 PHOTO</span>
+        <small>Paste image URL into the &lt;img&gt; tag below</small>
+      </div>
+      <!-- <img class="product-photo" src="PASTE_IMAGE_URL_HERE" alt="Megan Thee Stallion Steve Madden pumps"> -->
+      <div class="islander">Megan Thee Stallion</div>
+      <p class="item-desc">Lace gloves paired with pink ballerina lace-up pumps.</p>
+
+      <div class="item-row">
+        <div class="item-info item-name-row">
+          <span class="item-name">Pink Ballerina Lace-Up Pumps <span class="price-tag">~$90</span></span>
+          <span class="item-brand">Steve Madden</span>
+        </div>
+        <span class="item-status status-live">In Stock</span>
+      </div>
+
+      <a href="#" class="shop-btn" data-affiliate="REPLACE_WITH_YOUR_LINK">Shop This Fit</a>
     </div>
   </div>
 
